@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
 
-class MainHeader extends Component {
+class MainHeader extends Component {    
     render(){
         return(
-            <div>MainHeader</div>
+            <a href="#" class="logo">
+            <span class="logo-mini"><b>A</b>LT</span>
+            <span class="logo-lg"><b>Admin</b>LTE</span>
+            </a>
         );
     }
 }

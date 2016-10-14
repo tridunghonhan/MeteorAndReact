@@ -18,7 +18,6 @@ class LinkList extends Component {
                 </tr>
             );
         });
-        
     }
 
     render(){
