@@ -1,18 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainHeader from './components/header';
-import CPULoad from './components/cpu_load';
+import Wrapper from '../imports/ui/components/wrapper';
 
 
 const App = () => {
   return (
-    <div>
-      <MainHeader />
-      <CPULoad />
-    </div>
+    <Wrapper />
   );
 };
 
 Meteor.startup(()=>{
-  ReactDOM.render(<App />, document.querySelector('.render-target'));
+  ReactDOM.render(<App />, document.querySelector('.root-div'));
 });
