@@ -8,7 +8,7 @@ class AccountRegister extends Component{
         console.log(oldClass);
         document.body.className = "hold-transition register-page";
 
-        // console.log('all input: ' + $('input').length );
+        console.log('all input: ' + $('input').length );
         // $('input').iCheck({
         //     checkboxClass: 'icheckbox_square-blue',
         //     radioClass: 'iradio_square-blue',
@@ -48,11 +48,7 @@ class AccountRegister extends Component{
         <div className="col-xs-8">
           <div className="checkbox icheck">
             <label>
-              <div className="icheckbox disabled">
-                <input type={'checkbox'} name="quux[1]" disabled/>
-            </div>
-  
-              I agree to the <a href="#">terms</a>
+              <input type="checkbox"/> I agree to the <a href="#">terms</a>
             </label>
           </div>
         </div>
